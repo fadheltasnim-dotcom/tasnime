@@ -1,14 +1,15 @@
 package tp2;
-import java.util.Scanner;
 
 public class cercle {
     double rayon;
+    static final double PI = 3.14; 
 
-    
-    double surface() {
-        return Math.PI * rayon * rayon;
+    public cercle(double rayon) {
+        this.rayon = rayon;
     }
 
  
+    public double surface() {
+        return PI * rayon * rayon;
+    }
 }
-
